@@ -1,0 +1,349 @@
+@import "bootstrap";
+
+body {
+    height: 82vh;
+}
+
+.header-background {
+    background: url('https://media.istockphoto.com/id/578556350/photo/brown-paper-background.jpg?s=612x612&w=0&k=20&c=shGY1WoScBLeFqpV-NLmGJVjox9fuja7U6EdtvwQsk0=');
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;   
+}
+
+a:hover {
+    color: #4E3118;
+}
+
+.footer-styling {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;   
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    right: 0;
+    left: 0;
+    position: fixed;
+}
+
+.container-fluid {
+    padding: 0 !important;
+    list-style: none;
+  }
+
+  .not-found-container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  .not-found-image {
+    flex-basis: 40%
+  }
+
+  .not-found-text {
+    font-size: 70px;
+    font-family: 'Ramabhadra'; @import url('https://fonts.googleapis.com/css?family=Ramabhadra');
+  }
+
+.not-found-text-2 {
+   font-size: 45px;
+    font-family: 'Ramabhadra'; @import url('https://fonts.googleapis.com/css?family=Ramabhadra');
+    justify-content: center;
+}
+.not-found-spacing {
+    text-align: center;
+}
+
+.btn-secondary {
+    background: white;
+    color: black;
+    border-radius: 2px;
+    font-size: 13px;
+    border-width: medium;
+    border-color: black;
+    margin-top:10px;
+    padding: 8px 20px;
+}
+
+.homepage {
+    color: white;
+}
+
+.motto {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Courgette', sans-serif;
+    @import url('https://fonts.googleapis.com/css?family=Courgette');
+    padding-top: 100px;
+}
+
+.company-name {
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: 'Ramabhadra', sans-serif;
+    @import url('https://fonts.googleapis.com/css?family=Ramabhadra');
+}
+
+.company-info {
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 12px;
+    font-family: 'Lato', sans-serif;
+    width: 50%;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-buttons-space {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 12px;
+    font-family: 'Lato', sans-serif;
+}
+
+.home-buttons {
+    background-color: white;
+    color: burlywood;
+}
+
+.edit-button {
+    background: white;
+    color: black;
+    border-radius: 2px;
+    font-size: 13px;
+    border-width: thin;
+    border-color: black;
+    margin-top:10px;
+    padding: 6px 23px;
+}
+
+.delete-button {
+    background: white;
+    color: black;
+    border-radius: 2px;
+    font-size: 13px;
+    border-width: thin;
+    border-color: black;
+    margin-top:10px;
+    padding: 6px 23px;
+    margin-left: 10px;
+}
+
+.card-styling {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.new-box-button {
+    border-radius: 2px;
+    background-color: #AF9170;
+    color: white;
+    border: #AF9170;
+    margin-right: 25px;
+    margin-top: 45px;
+}
+
+.index-bg-color {
+    background-color: #EFE5DA;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+
+}
+
+.card {
+    border-radius: 0;
+}
+ 
+.box-label {
+    background-color: #D0B08C;
+    color: white;
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+
+.your-box-styling {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 35px;
+    font-family: 'Ramabhadra'; 
+    @import url('https://fonts.googleapis.com/css?family=Ramabhadra');
+}
+
+.about {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+.about-us-title {
+    font-family: 'Ramabhadra', sans-serif;
+    @import url('https://fonts.googleapis.com/css?family=Ramabhadra');
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.about-us-info {
+    font-family: 'Lato', sans-serif;
+}
+
+.card-title-text {
+    text-align: center;
+}
+
+.two-card-div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+
+.card {
+    width: 20rem;
+    border: 0;
+    
+}
+
+.image-cropper {
+    width: 325px;
+    height: 325px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.login-box-styling {
+    background-color: #EFE5DA;
+    margin: 100px 450px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+}
+.input-styling input {
+    width: 100%;
+}
+
+.login-email-styling {
+    text-align: left;
+    margin-top: 20px;
+    color: #C8A67E;
+    font-family: 'Roboto'; @import url('https://fonts.googleapis.com/css?family=Roboto');
+}
+
+.login-button-styling {
+    margin: 70px 50px;
+}
+
+.rememberme-styling {
+    text-align: left;
+    color: #C8A67E;
+}
+
+.login-title {
+    color: #AF906B;
+    font-family: 'Lato'; @import url('https://fonts.googleapis.com/css?family=Lato');
+    font-weight: bolder;
+}
+
+.signup-box-styling {
+    background-color: #EFE5DA;
+    margin: 50px 450px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.signup-title {
+    color: #AF906B;
+    font-family: 'Lato'; @import url('https://fonts.googleapis.com/css?family=Lato');
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.signup-input-styling input {
+    width: 100%;
+}
+
+.signup-email-styling {
+    text-align: left;
+    margin-top: 20px;
+    color: #C8A67E;
+    font-family: 'Roboto'; @import url('https://fonts.googleapis.com/css?family=Roboto');
+}
+
+.password-confirmation-styling1 {
+    text-align: left;
+    color: #C8A67E;
+    margin-top: 40px;
+}
+
+.password-confirmation-styling2 {
+    text-align: left;
+    color: #C8A67E;
+    margin-top: 20px;
+}
+
+.signup-button-styling {
+    margin: 40px 50px;
+}
+
+.signup-logo {
+    width: 225px;
+    height: 225px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.homepage-background {
+    background-image: url('https://media.istockphoto.com/id/578556350/photo/brown-paper-background.jpg?s=612x612&w=0&k=20&c=shGY1WoScBLeFqpV-NLmGJVjox9fuja7U6EdtvwQsk0=');
+    height: 82vh;
+    background-size: cover;
+    border-radius: 0;
+}
+
+.btn-secondary {
+    border-color: black;
+}
+
+.update-button-styling {
+    float: right;
+    border-radius: 2px;
+    margin-right: 25px;
+}
+
+.form-padding {
+    padding: 25px 30px;
+
+}
+
+.form-size {
+    height: 100px;
+    border-radius: 1px;
+    border-color: white;
+}
+
+.label-font {
+    font-size: 20px;
+}
+
+.show-page-border {
+    border: solid white;
+    border-radius: 1px;
+    background-color: white;
+}
